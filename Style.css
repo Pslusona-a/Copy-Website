@@ -1,0 +1,33 @@
+body{
+    background-color: #1a4587;
+    margin: 12px;
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+h1{
+    color: white;
+}
+a{
+    color: white;
+    font-size: 30px;
+}
+
+div+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+div+p{
+    color: white;
+    font-size: 10px;
+}
+
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+
+}
