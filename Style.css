@@ -2,10 +2,26 @@ body{
     background-color: #1a4587;
     margin: 12px;
 }
+#main{
+    margin: 16%;
+}
+#sidebar{
+    margin-right: 84%;
+    text-align: center;
+    background-color: #f4b929;
+    color: black;
+}
 p{
     color: white;
     font-size: 24px;
 }
+#apClass{
+    margin-left: auto;
+}
+#apClass2{
+    margin-left: auto;
+}
+
 h1{
     color: white;
 }
@@ -13,17 +29,29 @@ a{
     color: white;
     font-size: 30px;
 }
-
-div+img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+#c1{
+    width: 700px;
+    height: 500px;
+}
+img{
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
 }
 div+p{
     color: white;
     font-size: 10px;
 }
+#carousel{
+    flex-wrap: wrap;
+    width: 50%;
+}
 
+
+
+#ap2{
+
+}
 
 #grid{
     display: grid;
