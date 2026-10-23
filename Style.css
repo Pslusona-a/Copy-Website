@@ -3,13 +3,26 @@ body{
     margin: 12px;
 }
 #main{
-    margin: 16%;
+    margin-left: 16%;
+    position: sticky;
 }
 #sidebar{
     margin-right: 84%;
     text-align: center;
     background-color: #f4b929;
+    position: sticky;
     color: black;
+}
+#sidebar+button{
+    background-color: #f4b929;
+    border-color: black;
+}
+#sidebar+a{
+    color: black;
+    text-decoration: none;
+}
+#carousel + tr{
+    text-align: center;
 }
 p{
     color: white;
@@ -46,8 +59,14 @@ div+p{
     flex-wrap: wrap;
     width: 50%;
 }
-
-
+#←{
+    background-color: yellow;
+    color: black;
+}
+#→{
+    background-color: yellow;
+    color: black;
+}
 
 #ap2{
 
